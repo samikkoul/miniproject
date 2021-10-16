@@ -41,7 +41,7 @@ public class BodyCalculatorActivity extends AppCompatActivity implements ISharea
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_body_calculator);
-        weight = 0;
+        weight = 10;
         goal = 0;
         deficit = 0;
         result = 0;
